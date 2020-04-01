@@ -1,7 +1,11 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -52,29 +56,29 @@
     </nav>
   </header>
   <main>
-    <section id="about us">
+    <section id="about_us">
       
-      <div class="jumbotron jumbotron-fluid part1-1">
+      <div class="jumbotron jumbotron-fluid part1-1" data-aos="fade-up">
         <div class="container desc">
-          <h1 class="display4" id="about_us">ABOUT US</h1>
+          <h1 class="display4">ABOUT US</h1>
           <h2 class="display-4">Who we are</h2>
           <text class="lead">We are the developers of MCS(Medical Care System). We are testing our first developments, a robot medical assistant and a device for measuring the state of health of a wrist bracelet (device). Our team consists of seven people. We are moving very fast. New ideas for developing our devices are constantly coming. Not far off is the day when we launch our devices in mass production!</text>
           <!--кто мы такие и вся остальная инфа про команду-->
         </div>
       </div>
-      <div class="jumbotron jumbotron-fluid">
+      <div class="jumbotron jumbotron-fluid part1-2">
         <div class="container desc">
           <h2 class="display-4">Our developments-our goals</h2>
           <text class="lead">Now we have developed 2 devices: a medical assistant robot and a band for measuring health. These devices have a special app that receives data about your health.</text>
         </div>
       </div>
-      <div class="jumbotron jumbotron-fluid">
+      <div class="jumbotron jumbotron-fluid part1-3">
         <div class="container desc">
           <h1 class="display-4">Fluid jumbotron</h1>
           <text class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</text>
         </div>
       </div>
-      <div class="jumbotron jumbotron-fluid">
+      <div class="jumbotron jumbotron-fluid part1-4">
         <div class="container desc">
           <h1 class="display-4">Fluid jumbotron</h1>
           <text class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</text>
@@ -84,25 +88,27 @@
     <section id="device">
       <div class="jumbotron jumbotron-fluid part2">
         <div class="container desc">
-          <h1 id="robot">Device</h1>
-          <h2 class="display-4">Device</h2>
-          <text class="lead">This is our monitoring device. It's measures pulse, SpO2, temperature.</text>
+          <h1 id="robot">Devices</h1>
+          <h2 class="display-4">Band</h2>
+          <text class="lead">
+Our band is a unique development, thanks to which you will always be informed about the state of your health. Our band monitors temperature, SpO2, heart rate. If it detects poor health, it sends health data to hospitals. It also advises which medicines to take, what see a doctor.
+        </text>
           <!--браслет-->
         </div>
       </div>
     </section>
     <section id="robot">
-      <div class="jumbotron jumbotron-fluid">
+      <div class="jumbotron jumbotron-fluid part3">
         <div class="container desc">
           <h1 id="robot">ROBOT</h1>
           <h2 class="display-4">Robot</h2>
-          <text class="lead">The robot is a medical assistant. It helps medical workers in medical institutions. Although it can replace an experienced doctor by its functionality. What is the fate of our robot? The robot can move freely and due to this it can deliver necessary medications, medicines and many more to the hospital of another. The patient should name his health condition: temperature, pulse, pressure. Knowing your data, the robot will tell you which doctor should be consulted and which medications to take. The robot can measure temperature, pressure, pulse, all parameters of your health status. Get tips: which medicine to drink and others.</text>
+          <text class="lead">The robot is a medical assistant. It helps medical workers in hospitals, or in your houses(now don). Although it can replace an experienced doctor by its functionality. What is the fate of our robot? The robot can move freely and due to this it can deliver necessary medications, medicines and many more to the hospital of another. The patient should name his health condition: temperature, pulse, pressure. Knowing your data, the robot will tell you which doctor should be consulted and which medications to take. The robot can measure temperature, pressure, pulse, all parameters of your health status. Get tips: which medicine to drink and others.</text>
           <!--робот-->
         </div>
       </div>
     </section>
     <section id="app">
-      <div class="jumbotron jumbotron-fluid part2">
+      <div class="jumbotron jumbotron-fluid part4">
         <div class="container desc">
           <h1 id="app">APP</h1>
           <h2 class="display-4">Application</h2>
@@ -113,6 +119,7 @@
     </section>
   </main>
   <footer>&copy; MCS, 2020</footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

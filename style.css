@@ -3,18 +3,23 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	
-	height: 40vh;
 	padding: 5% 10%;
 
 }
 .part1-2{
-	background-image: url(https://lh5.googleusercontent.com/proxy/d2KeE52LksRzJY72DtG8VIaI39r662iYpSNXo5BoU31qa8FAsGGfWdsWRHmmTnW_f4RirUu_oJU8wurrL7dqUg5trDvobBz_ymd7TyYXuPQ96Gs_IqCpeAlmyT5teMrGE-Z3a2nB30jpELoi8ffxnDIrNfR1NqHsHQvgtH39KVfAR42w-aqUmE8U6HNxPimJW9oqYPrFNV16QSm239honO57IqKjg5N1KLkPeuNCF346b-muQw_MY1v7DnBdxEc1QpnkOSCag2uUaYr8Q7pQyg);
+	background-image: url('./images/team_work2.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	 height: 40vh;
+
 	 padding: 5% 10%;
 }
+.part1-3 {
+	background-image: url();
+	background-repeat: no-repeat;
+	background-size: cover;
 
+	padding: 5% 10%;
+}
 
 .desc{
 	background-color: rgba(233, 20, 20, 0.5);
@@ -28,4 +33,12 @@
 
 .part2 {
 	background-image: url();
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding: 5% 10%;
+}
+
+.jumbotron {
+	margin: 0em;
 }
