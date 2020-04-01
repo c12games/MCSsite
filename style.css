@@ -2,6 +2,7 @@
 	background-image: url('./images/team_work.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	
 	padding: 5% 10%;
 
@@ -14,9 +15,10 @@
 	 padding: 5% 10%;
 }
 .part1-3 {
-	background-image: url();
+	background-image: url('/images/изображение_viber_2020-04-01_14-18-50.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 
 	padding: 5% 10%;
 }
@@ -32,11 +34,26 @@
  
 
 .part2 {
-	background-image: url();
+	background-image: url('/images/band.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 
 	padding: 5% 10%;
+}
+
+.part3 {
+	background-image: url('/images/robot.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding: 5% 10%;
+}
+
+.part4 {
+	background-image: url('/images/app_screen.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .jumbotron {
