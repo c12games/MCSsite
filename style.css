@@ -42,3 +42,6 @@
 .jumbotron {
 	margin: 0em;
 }
+html, body {
+	overflow-x: hidden;
+}
