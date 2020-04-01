@@ -15,7 +15,7 @@
 	 padding: 5% 10%;
 }
 .part1-3 {
-	background-image: url('/images/изображение_viber_2020-04-01_14-18-50.jpg');
+	background-image: url('./images/team_work3.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -34,7 +34,7 @@
  
 
 .part2 {
-	background-image: url('/images/band.jpg');
+	background-image: url('./images/band.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -42,7 +42,7 @@
 }
 
 .part3 {
-	background-image: url('/images/robot.jpg');
+	background-image: url('./images/robot.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -50,7 +50,7 @@
 }
 
 .part4 {
-	background-image: url('/images/app_screen.jpg');
+	background-image: url('./images/app_screen.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
