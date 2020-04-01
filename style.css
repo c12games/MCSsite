@@ -1,5 +1,5 @@
-.part1 {
-	background-image: url(https://avatars.mds.yandex.net/get-zen_doc/1054867/pub_5deef27b028d6800b1d8063b_5def146ddf944400b17dc7fb/scale_1200);
+.part1-1 {
+	background-image: url('./images/team_work.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	
@@ -7,9 +7,22 @@
 	padding: 5% 10%;
 
 }
-.part1 .container{
+.part1-2{
+	background-image: url(https://lh5.googleusercontent.com/proxy/d2KeE52LksRzJY72DtG8VIaI39r662iYpSNXo5BoU31qa8FAsGGfWdsWRHmmTnW_f4RirUu_oJU8wurrL7dqUg5trDvobBz_ymd7TyYXuPQ96Gs_IqCpeAlmyT5teMrGE-Z3a2nB30jpELoi8ffxnDIrNfR1NqHsHQvgtH39KVfAR42w-aqUmE8U6HNxPimJW9oqYPrFNV16QSm239honO57IqKjg5N1KLkPeuNCF346b-muQw_MY1v7DnBdxEc1QpnkOSCag2uUaYr8Q7pQyg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	 height: 40vh;
+	 padding: 5% 10%;
+}
+
+
+.desc{
 	background-color: rgba(233, 20, 20, 0.5);
 	color:#ffffff;
+}
+
+.name{
+	font: outline;
 }
  
 
