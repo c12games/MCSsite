@@ -2,8 +2,17 @@
 	background-image: url(https://avatars.mds.yandex.net/get-zen_doc/1054867/pub_5deef27b028d6800b1d8063b_5def146ddf944400b17dc7fb/scale_1200);
 	background-repeat: no-repeat;
 	background-size: cover;
-
+	
 	height: 40vh;
 	padding: 5% 10%;
 
+}
+.part1 .container{
+	background-color: rgba(233, 20, 20, 0.5);
+	color:#ffffff;
+}
+ 
+
+.part2 {
+	background-image: url();
 }
