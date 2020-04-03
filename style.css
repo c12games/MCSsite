@@ -87,3 +87,8 @@ html, body {
 		font-size: 2rem;
 	}
 }
+ 
+.hospitals {
+	width: 1580px;
+	height: 1080px;
+}
