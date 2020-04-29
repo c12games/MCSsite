@@ -7,6 +7,14 @@
 	padding: 5% 10%;
 
 }
+
+.main {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	padding: 5% 10%;
+}
 .part1-2{
 	background-image: url('./images/writing-board-number-line-corporate-business-710477-pxhere.com.jpg');
 	background-repeat: no-repeat;
@@ -54,6 +62,17 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+
+	padding: 5% 10%;
+}
+
+.part5 {
+	background-image: url('./images/img3.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	padding: 5% 10%;
 }
 
 .lol {
