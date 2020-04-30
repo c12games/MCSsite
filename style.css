@@ -1,3 +1,24 @@
+@font-face {
+	font-family: ProximaNova-Regular;
+	src : url(./fonts/ProximaNova-Regular.ttf);
+
+	
+}
+
+@font-face {
+	font-family: ProximaNova-Bold;
+	src: url(/fonts/ProximaNova-Bold.ttf);
+}
+
+h2, a, text, footer {
+	font-family: ProximaNova-Regular;
+}
+
+h1 {
+	font-family: ProximaNova-Bold;
+}
+
+
 .part1-1 {
 	background-image: url('./images/writing-hand-glass-finger-business-ear-701333-pxhere.com.jpg');
 	background-repeat: no-repeat;
