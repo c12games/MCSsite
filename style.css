@@ -112,7 +112,11 @@ h1, h2, a, text, footer {
 }
 
 
+<<<<<<< HEAD
 /*  Flexbox CSS Styling */
+=======
+/*  Flexbox CSS Styling  */
+>>>>>>> 512cf36bc4791342661bfc89dab4168aff750dc5
 
 .flex-container {
 	display: flex;
@@ -184,7 +188,7 @@ html, body {
 }
 
 .podval {
-	background-color: rgba(238, 15, 15, 0.76);
+	background-color: red;
 	color: #ffffff;
 }
 
