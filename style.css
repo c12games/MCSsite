@@ -165,7 +165,7 @@ html, body {
 	align-self: auto;
 }
 .img1 {
-	background-image: url('img/vesy.png');
+	background-image: url('./img/vesy.png');
   background-repeat: no-repeat;
 }
 .flex-element:hover
@@ -175,26 +175,26 @@ html, body {
   transform: scale(1.5);
 }
 .img2 {
-	background-image: url('img/grad.png');
+	background-image: url('./img/grad.png');
   background-repeat: no-repeat;
 }
 .img3 {
-	background-image: url('img/hand.png');
+	background-image: url('./img/hand.png');
   background-repeat: no-repeat;
 }
 .img4 {
-	background-image: url('img/comp.png');
+	background-image: url('./img/comp.png');
   background-repeat: no-repeat;
 }
 .img5 {
-	background-image: url('img/blood.png');
+	background-image: url('./img/blood.png');
   background-repeat: no-repeat;
 }
 .img6 {
-	background-image: url('img/davl.png');
+	background-image: url('./img/davl.png');
   background-repeat: no-repeat;
 }
 .img7 {
-	background-image: url('img/robot.png');
+	background-image: url('./img/robot.png');
   background-repeat: no-repeat;
 }
