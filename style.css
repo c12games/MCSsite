@@ -131,20 +131,6 @@ html, body {
 .hospitals {
 	width: 1580px;
 	height: 1080px;
-}.block {
-	background-image: url('./img/bg.png');
-	width: 1500px;
-	height: 745px;
-	margin: 10px auto;
-	padding: 10px;
-}
-
-.block__element {
-	background: none;
-	width: 15%;
-	height: 215px;
-	position: relative;
-	margin: 10px;
 }
 
 
