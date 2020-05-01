@@ -112,7 +112,7 @@ h1, h2, a, text, footer {
 }
 
 
-/  Flexbox CSS Styling  /
+/*  Flexbox CSS Styling  */
 
 .flex-container {
 	display: flex;
