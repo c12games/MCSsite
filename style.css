@@ -95,6 +95,42 @@ h1, h2, a, text, footer {
 .part5 {
 	background-color: #fff;
 	padding: 1% 10%;
+}
+.lol {
+	display: inline;
+	margin: 5px;
+	border: 1px #ffffff;
+	padding: 3px;
+}
+
+.jumbotron {
+	margin: 0em;
+}
+html, body {
+	overflow-x: hidden;
+}
+
+.photocard {
+	width: 280px;
+	height: 280px;
+}
+
+.podval {
+	background-color: red;
+	color: #ffffff;
+}
+
+
+
+@media only screen and (max-width:420px){
+	.display-4{
+		font-size: 2rem;
+	}
+}
+ 
+.hospitals {
+	width: 1580px;
+	height: 1080px;
 }.block {
 	background-image: url('./img/bg.png');
 	width: 1500px;
@@ -166,41 +202,4 @@ h1, h2, a, text, footer {
 .img7 {
 	background-image: url('img/robot.png');
   background-repeat: no-repeat;
-}
-
-.lol {
-	display: inline;
-	margin: 5px;
-	border: 1px #ffffff;
-	padding: 3px;
-}
-
-.jumbotron {
-	margin: 0em;
-}
-html, body {
-	overflow-x: hidden;
-}
-
-.photocard {
-	width: 280px;
-	height: 280px;
-}
-
-.podval {
-	background-color: red;
-	color: #ffffff;
-}
-
-
-
-@media only screen and (max-width:420px){
-	.display-4{
-		font-size: 2rem;
-	}
-}
- 
-.hospitals {
-	width: 1580px;
-	height: 1080px;
 }
