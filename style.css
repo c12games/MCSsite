@@ -33,15 +33,6 @@ h1, h2, a, text, footer {
 			}
 	25% {transform: rotate(180deg);}
 	100%{transform: rotate(360deg);}
-}.navbar-brand:hover {
-	animation: spin 3s ease-in-out infinite;
-}
-@keyframes spin {
-	0% {
-		transform: rotate(0deg);
-			}
-	25% {transform: rotate(180deg);}
-	100%{transform: rotate(360deg);}
 }
 .main {
 	background-repeat: no-repeat;
