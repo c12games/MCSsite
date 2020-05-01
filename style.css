@@ -10,12 +10,8 @@
 	src: url(/fonts/ProximaNova-Bold.ttf);
 }
 
-h2, a, text, footer {
+h1, h2, a, text, footer {
 	font-family: ProximaNova-Regular;
-}
-
-h1 {
-	font-family: ProximaNova-Bold;
 }
 
 
