@@ -132,7 +132,238 @@ html, body {
 	width: 1580px;
 	height: 1080px;
 }
-.block {
+
+.picture-animation {
+	/*background-color: blue;*/
+	background-image: url('./img/bg.png');
+	height: 110%;
+	display: inline-flex;
+	width: 100%;
+}
+.picture-animation .picture-animation-left,.picture-animation-center,.picture-animation-right{
+	width: 33.3%;
+	display: block;
+}
+
+.med-pic {
+	/*display: flex;*/
+	height: 215px;
+	width: 215px;
+	font-size: 0;
+	box-sizing: border-box;
+}
+.med-pic:hover {
+-webkit-transform: scale(1.5);
+-ms-transform: scale(1.5);
+transform: scale(1.5);
+}
+.arrow {
+display: none;
+border: 20px solid transparent; border-left: 20px solid green; 
+}
+.vesy {
+  background-image: url('./img/vesy.png');
+  background-repeat: no-repeat;
+  margin-left: 15%;
+   margin-top: 5%;
+}
+.vesy:hover .arrow {
+display: block;
+position: absolute;
+top: 128%;
+left: 170%;
+animation-name: arrow;
+animation-duration: 6s;
+animation-fill-mode:forwards;  
+}
+@keyframes arrow {
+0% {
+transform:  translate(-200px,-183.5px);
+}
+20%{
+transform:  translate(-100px,-183.5px);
+}
+40% {
+transform:  translate(-100px,-183.5px) rotate(90deg);
+}
+60% {
+transform:  translate(-100px, 0) rotate(90deg);
+}
+80% {
+transform: translate(-100px,0px) rotate(0deg);
+}
+100% {
+transform: translate(0px,0px);
+}
+}    
+.grad {
+  background-image: url('./img/grad.png');
+  background-repeat: no-repeat;
+  margin-left: 10%;
+  margin-top: 8%;
+}
+.grad:hover .arrow {
+display: block;
+position: absolute;
+top: 48.6%;
+left: 172%;
+border: 20px solid transparent; border-left: 20px solid red;
+animation-name: arrowg;
+animation-duration: 2s;
+animation-fill-mode:forwards;  
+}
+@keyframes arrowg {
+0% {
+transform:  translate(-200px,0);
+}
+100% {
+transform:  translate(0,0);
+}
+}    
+.hand {
+  box-sizing: border-box;
+  background-image: url('./img/hand.png');
+  background-repeat: no-repeat;
+  margin-left: 10%;
+  margin-top: 10%;
+  }
+ .hand:hover .arrow {
+display: block;
+position: absolute;
+top: -33.9%;
+left: 172%;
+border: 20px solid transparent; border-left: 20px solid blue;
+animation-name: arrowh;
+animation-duration: 3s;
+animation-fill-mode:forwards;  
+}
+@keyframes arrowh {
+0% {
+transform:  translate(-190px,183.5px);
+}
+20%{
+transform:  translate(-88px,183.5px);
+}
+40% {
+transform:  translate(-88px,183.5px) rotate(-90deg);
+}
+60% {
+transform:  translate(-88px, 0) rotate(-90deg);
+}
+80% {
+transform: translate(-88px,0px) rotate(0deg);
+}
+100% {
+transform: translate(0px,0px);
+}
+}    
+.comp {
+  background-image: url('./img/comp.png');
+  background-repeat: no-repeat;
+  background-size: 100%; 
+  margin-left: 33%;
+  margin-top: 51%;
+}
+.blood {
+  background-image: url('./img/blood.png');
+  background-repeat: no-repeat;
+  background-size: 100%; 
+  margin-left: 33%;
+  margin-top: 7%;
+}
+.blood:hover .arrow {
+display: block;
+position: absolute;
+top: 125%;
+left: -66%;
+border: 20px solid transparent; border-right: 20px solid violet;
+animation-name: arrowb;
+animation-duration: 3s;
+animation-fill-mode:forwards;  
+}
+@keyframes arrowb {
+0% {
+transform:  translate(190px,-183.5px);
+}
+20%{
+transform:  translate(88px,-183.5px);
+}
+40% {
+transform:  translate(88px,-183.5px) rotate(-90deg);
+}
+60% {
+transform:  translate(88px, 0px) rotate(-90deg);
+}
+80% {
+transform: translate(88px,0px) rotate(0deg);
+}
+100% {
+transform: translate(0px,0px);
+}
+}    
+.davl {
+  background-image: url('./img/davl.png');
+  background-repeat: no-repeat;
+  background-size: 100%; 
+  margin-left: 33%;
+  margin-top: 20%;
+}
+.davl:hover .arrow {
+display: block;
+position: absolute;
+top: 26.5%;
+left: -66%;
+border: 20px solid transparent; border-right: 20px solid orange;
+animation-name: arrowd;
+animation-duration: 2s;
+animation-fill-mode:forwards;  
+}
+@keyframes arrowd {
+0% {
+transform:  translate(200px,0);
+}
+100% {
+transform:  translate(0,0);
+}
+}    
+.robot {
+  background-image: url('./img/robot.png');
+  background-repeat: no-repeat;
+  background-size: 100%; 
+  margin-left: 33%;
+  margin-top: 5%;
+}
+.robot:hover .arrow {
+display: block;
+position: absolute;
+top: -47.5%;
+left: -66%;
+border: 20px solid transparent; border-right: 20px solid yellow;
+animation-name: arrowr;
+animation-duration: 3s;
+animation-fill-mode:forwards;  
+}
+@keyframes arrowr {
+0% {
+transform:  translate(190px,183.5px);
+}
+20%{
+transform:  translate(93px,183.5px);
+}
+40% {
+transform:  translate(93px,183.5px) rotate(90deg);
+}
+60% {
+transform:  translate(93px, 0) rotate(90deg);
+}
+80% {
+transform: translate(93px,0px) rotate(0deg);
+}
+100% {
+transform: translate(0px,0px);
+}
+}    
+/*.block { 
 	background-image: url('./img/bg.png');
 	width: 1500px;
 	height: 745px;
@@ -164,32 +395,7 @@ html, body {
 	flex-basis: auto;
 	align-self: auto;
 }
-.img1 {
-	background-image: url('./img/vesy.png');
-  background-repeat: no-repeat;
-}
-.flex-element:hover
-{
-	-webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-}
-.img2 {
-	background-image: url('./img/grad.png');
-  background-repeat: no-repeat;
-}
-.img3 {
-	background-image: url('./img/hand.png');
-  background-repeat: no-repeat;
-}
-.img4 {
-	background-image: url('./img/comp.png');
-  background-repeat: no-repeat;
-}
-.img5 {
-	background-image: url('./img/blood.png');
-  background-repeat: no-repeat;
-}
+
 .img6 {
 	background-image: url('./img/davl.png');
   background-repeat: no-repeat;
@@ -197,4 +403,5 @@ html, body {
 .img7 {
 	background-image: url('./img/robot.png');
   background-repeat: no-repeat;
-}
+} */
+
