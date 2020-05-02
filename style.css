@@ -139,6 +139,7 @@ html, body {
 	height: 110%;
 	display: inline-flex;
 	width: 100%;
+	margin-bottom: 30px;
 }
 .picture-animation .picture-animation-left,.picture-animation-center,.picture-animation-right{
 	width: 33.3%;
@@ -233,10 +234,11 @@ display: block;
 position: absolute;
 top: -33.9%;
 left: 172%;
-border: 20px solid transparent; border-left: 20px solid blue;
+border: 20px solid transparent; border-right: 20px solid blue;
 animation-name: arrowh;
 animation-duration: 3s;
 animation-fill-mode:forwards;  
+animation-direction: reverse;
 }
 @keyframes arrowh {
 0% {
@@ -314,11 +316,10 @@ display: block;
 position: absolute;
 top: 26.5%;
 left: -66%;
-border: 20px solid transparent; border-left: 20px solid orange;
+border: 20px solid transparent; border-right: 20px solid orange;
 animation-name: arrowd;
 animation-duration: 2s;
 animation-fill-mode:forwards; 
-animation-direction: reverse; 
 }
 @keyframes arrowd {
 from {
