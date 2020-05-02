@@ -173,7 +173,7 @@ position: absolute;
 top: 128%;
 left: 170%;
 animation-name: arrow;
-animation-duration: 6s;
+animation-duration: 3s;
 animation-fill-mode:forwards;  
 }
 @keyframes arrow {
@@ -195,7 +195,8 @@ transform: translate(-100px,0px) rotate(0deg);
 100% {
 transform: translate(0px,0px);
 }
-}    
+} 
+
 .grad {
   background-image: url('./img/grad.png');
   background-repeat: no-repeat;
@@ -313,16 +314,17 @@ display: block;
 position: absolute;
 top: 26.5%;
 left: -66%;
-border: 20px solid transparent; border-right: 20px solid orange;
+border: 20px solid transparent; border-left: 20px solid orange;
 animation-name: arrowd;
 animation-duration: 2s;
-animation-fill-mode:forwards;  
+animation-fill-mode:forwards; 
+animation-direction: reverse; 
 }
 @keyframes arrowd {
-0% {
+from {
 transform:  translate(200px,0);
 }
-100% {
+to {
 transform:  translate(0,0);
 }
 }    
@@ -338,10 +340,11 @@ display: block;
 position: absolute;
 top: -47.5%;
 left: -66%;
-border: 20px solid transparent; border-right: 20px solid yellow;
+border: 20px solid transparent; border-left: 20px solid yellow;
 animation-name: arrowr;
 animation-duration: 3s;
-animation-fill-mode:forwards;  
+animation-fill-mode:forwards; 
+animation-direction: reverse; 
 }
 @keyframes arrowr {
 0% {
@@ -404,4 +407,3 @@ transform: translate(0px,0px);
 	background-image: url('./img/robot.png');
   background-repeat: no-repeat;
 } */
-
