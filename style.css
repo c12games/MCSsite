@@ -27,8 +27,8 @@ h1, h2, a, text, footer {
 .navbar-brand {
 	animation: spin 3s ease-in-out infinite;
 }
-.navbar-brand: hover {
-	animation-play-state: pause;
+.navbar-brand:hover {
+	animation-play-state: paused;
 }
 @keyframes spin {
 	0% {
