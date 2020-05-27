@@ -13,10 +13,10 @@
   // Initialize Firebase
   firebase.initializeApp(config);
   //Get elements
-  const txtEmail = document.GetElementById('txtEmail');
-  const txtpassword = document.GetElementById('txtpassword');
-  const btnlogin = document.GetElementById('btnlogin');
-  const btnlogout = document.GetElementById('btnlogout');
+  const txtEmail = document.getElementById('txtEmail');
+  const txtpassword = document.getElementById('txtpassword');
+  const btnlogin = document.getElementById('btnlogin');
+  const btnlogout = document.getElementById('btnlogout');
   //Add login event
   btnlogin.addEventListener('click', e => {
   	//Get email and password
