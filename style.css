@@ -28,10 +28,10 @@ h1, h2, a, text, footer {
 	padding: 5% 10%;
 
 }
-.navbar-brand {
-	animation: spin 3s ease-in-out infinite;
+.spinanim:hover {
+	animation: spin 3s ease-in-out ;
 }
-.navbar-brand:hover {
+.spinanim {
 	animation-play-state: paused;
 }
 @keyframes spin {
