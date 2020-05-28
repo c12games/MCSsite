@@ -1,6 +1,6 @@
 @font-face {
 	font-family: ProximaNova-Regular;
-	src : url(./fonts/ProximaNova-Regular.ttf);
+	src : url('./fonts/ProximaNova-Regular.ttf');
 
 	
 }
@@ -12,6 +12,10 @@
 
 h1, h2, a, text, footer {
 	font-family: ProximaNova-Regular;
+}
+
+.lead {
+    font-family: ProximaNova-Regular;
 }
 
 
