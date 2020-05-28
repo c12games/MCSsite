@@ -7,7 +7,7 @@
 
 @font-face {
 	font-family: ProximaNova-Bold;
-	src: url(/fonts/ProximaNova-Bold.ttf);
+	src: url('./fonts/ProximaNova-Bold.ttf');
 }
 
 h1, h2, a, text, footer {
