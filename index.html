@@ -24,8 +24,9 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src='./images/MSC LOGO WHITE.png' width="37" height="37" class="d-inline-block align-top" alt="">
+        <a class="navbar-brand" href="#" style="font-family: ProximaNova-Regular;">
+          <img src='./images/MSC LOGO WHITE.png' width="37" height="37" class="d-inline-block align-top speedanim" alt="">
+          Medical Care System
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,10 +35,16 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-            <li class="nav-item">
-              <a class="nav-link" href="#about_us">About us</a>
-            </li>
+            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#about_us" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  About Us
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#who_we_are">Who We Are</a>
+                  <a class="dropdown-item" href="#Our_developments-our_goals">Our developments-our goals</a>
+                  <a class="dropdown-item" href="#>Why_Our_Solutions">Why Our Solutions</a>
+                </div>
             <li class="nav-item">
               <a class="nav-link" href="#device">Devices</a>
             </li>
@@ -48,7 +55,11 @@
               <a class="nav-link" href="#app">App</a>
             </li> 
             <li class="nav-item">
+
               <a class="nav-link" href="#letstryyourfantasy">Let's try your fantasy</a>
+
+            
+
             </li>
           </ul>
           <button class="open-button" onclick="openForm()">Login</button>
@@ -73,10 +84,10 @@
     <section id="about_us">
 
       <div class="jumbotron jumbotron-fluid part1-1" data-aos="fade-up">
-        <div class="container desc">
+        <div class="container desc" id="who_we_are">
           <h1>ABOUT US</h1>
           <h2 class="display-4">Who we are</h2>
-          <text class="lead">We are the developers of <abbr title="Medical Care System"></abbr>MCS(Medical Care System)</abbr>. We are testing our first developments, a
+          <text class="lead">We are the developers of <abbr title="Medical Care System">MCS(Medical Care System)</abbr>. We are testing our first developments, a
             robot medical assistant and a device for measuring the state of health of a smart band. Our
             team consists of four people. We are moving very fast. New ideas for developing our devices are constantly
             coming. Not far off is the day when we launch our devices in mass production!</text>
@@ -111,7 +122,7 @@
           </div> -->
         </div>
         <div class="jumbotron jumbotron-fluid part1-2" data-aos="fade-down">
-          <div class="container desc">
+          <div class="container desc" id="Our_developments-our_goals">
             <h2 class="display-4">Our developments-our goals</h2>
             <text class="lead">Now we have developed 2 devices: a medical assistant robot and a band for measuring
               health.
@@ -210,7 +221,7 @@
     <section id="hospitals">
       <div class="jumbotron jumbotron-fluid part5" data-aos="fade-down-left">
         <div class="container desc">
-          <h1 id="letstryyourfantasy">LET'S TRY YOUR FANTASY</h1>
+          <h1>LET'S TRY YOUR FANTASY</h1>
     </div>
   </div>
   <div class="picture-animation">
