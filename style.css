@@ -1,13 +1,13 @@
 @font-face {
 	font-family: ProximaNova-Regular;
-	src : url('./fonts/ProximaNova-Regular.ttf');
+	src : url(/fonts/ProximaNova-Regular.ttf);
 
 	
 }
 
 @font-face {
 	font-family: ProximaNova-Bold;
-	src: url('./fonts/ProximaNova-Bold.ttf');
+	src: url(/fonts/ProximaNova-Bold.ttf);
 }
 
 h1, h2, a, text, footer {
@@ -20,7 +20,7 @@ h1, h2, a, text, footer {
 
 
 .part1-1 {
-	background-image: url('/images/writing-hand-glass-finger-business-ear-701333-pxhere.com.jpg');
+	background-image: url('./images/writing-hand-glass-finger-business-ear-701333-pxhere.com.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -99,14 +99,14 @@ h1, h2, a, text, footer {
 	padding: 5% 10%;
 }
 .part1-2{
-	background-image: url('/images/writing-board-number-line-corporate-business-710477-pxhere.com.jpg');
+	background-image: url('./images/writing-board-number-line-corporate-business-710477-pxhere.com.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 
 	 padding: 5% 10%;
 }
 .part1-3 {
-	background-image: url('/images/computer-working-person-group-people-meeting-559565-pxhere.com.jpg');
+	background-image: url('./images/computer-working-person-group-people-meeting-559565-pxhere.com.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -125,7 +125,7 @@ h1, h2, a, text, footer {
  
 
 .part2 {
-	background-image: url('/images/band.jpg');
+	background-image: url('./images/band.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -133,7 +133,7 @@ h1, h2, a, text, footer {
 }
 
 .part3 {
-	background-image: url('/images/robots.jpg');
+	background-image: url('./images/robots.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -141,7 +141,7 @@ h1, h2, a, text, footer {
 }
 
 .part4 {
-	background-image: url('/images/appbg.jpg');
+	background-image: url('./images/appbg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -192,7 +192,7 @@ html, body {
 
 .picture-animation {
 	/*background-color: blue;*/
-	background-image: url('/img/bg.png');
+	background-image: url('./img/bg.png');
 	height: 110%;
 	display: inline-flex;
 	width: 100%;
@@ -220,7 +220,7 @@ display: none;
 border: 20px solid transparent; border-left: 20px solid green; 
 }
 .vesy {
-  background-image: url('/img/vesy.png');
+  background-image: url('./img/vesy.png');
   background-repeat: no-repeat;
   margin-left: 15%;
    margin-top: 5%;
@@ -256,7 +256,7 @@ transform: translate(0px,0px);
 } 
 
 .grad {
-  background-image: url('/img/grad.png');
+  background-image: url('./img/grad.png');
   background-repeat: no-repeat;
   margin-left: 10%;
   margin-top: 8%;
@@ -281,7 +281,7 @@ transform:  translate(0,0);
 }    
 .hand {
   box-sizing: border-box;
-  background-image: url('/img/hand.png');
+  background-image: url('./img/hand.png');
   background-repeat: no-repeat;
   margin-left: 10%;
   margin-top: 10%;
@@ -318,14 +318,14 @@ transform: translate(0px,0px);
 }
 }    
 .comp {
-  background-image: url('/img/comp.png');
+  background-image: url('./img/comp.png');
   background-repeat: no-repeat;
   background-size: 100%; 
   margin-left: 33%;
   margin-top: 51%;
 }
 .blood {
-  background-image: url('/img/blood.png');
+  background-image: url('./img/blood.png');
   background-repeat: no-repeat;
   background-size: 100%; 
   margin-left: 33%;
@@ -362,7 +362,7 @@ transform: translate(0px,0px);
 }
 }    
 .davl {
-  background-image: url('/img/davl.png');
+  background-image: url('./img/davl.png');
   background-repeat: no-repeat;
   background-size: 100%; 
   margin-left: 33%;
@@ -387,7 +387,7 @@ transform:  translate(0,0);
 }
 }    
 .robot {
-  background-image: url('/img/robot.png');
+  background-image: url('./img/robot.png');
   background-repeat: no-repeat;
   background-size: 100%; 
   margin-left: 33%;
