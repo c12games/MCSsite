@@ -53,9 +53,10 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#app">App</a>
-            </li>
+            </li> 
             <li class="nav-item">
-              <a class="nav-link" href="#hospitals">For hospitals</a>
+
+              <a class="nav-link" href="#letstryyourfantasy">Let's try your fantasy</a>
             </li>
           </ul>
           <button class="open-button" onclick="openForm()">Login</button>
@@ -269,13 +270,20 @@
   }
   </script>
   <script src="script.js"></script> 
-  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+    apiKey: "AIzaSyDrW5S4gmgfHblaJzIuQqLKml8nhH4hQnI",
+    authDomain: "medical-care-system-b79fd.firebaseapp.com",
+    databaseURL: "https://medical-care-system-b79fd.firebaseio.com",
+    projectId: "medical-care-system-b79fd",
+    storageBucket: "medical-care-system-b79fd.appspot.com",
+    messagingSenderId: "158317669865",
+    appId: "1:158317669865:web:e2b4ad0e339be590386f78",
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="app.js"></script>
 
 </html>   
