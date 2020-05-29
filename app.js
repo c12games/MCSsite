@@ -42,4 +42,4 @@ function login(){
 }
 
 function logout(){
-  firebase.auth().signOut();
+  firebase.auth().signOut();}
