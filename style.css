@@ -1,6 +1,6 @@
 @font-face {
 	font-family: ProximaNova-Regular;
-	src : url(/fonts/ProximaNova-Regular.ttf);
+	src : url(./fonts/ProximaNova-Regular.ttf);
 
 	
 }
@@ -14,10 +14,6 @@ h1, h2, a, text, footer {
 	font-family: ProximaNova-Regular;
 }
 
-.lead {
-    font-family: ProximaNova-Regular;
-}
-
 
 .part1-1 {
 	background-image: url('./images/writing-hand-glass-finger-business-ear-701333-pxhere.com.jpg');
@@ -28,10 +24,10 @@ h1, h2, a, text, footer {
 	padding: 5% 10%;
 
 }
-.spinanim:hover {
-	animation: spin 3s ease-in-out ;
+.navbar-brand {
+	animation: spin 3s ease-in-out infinite;
 }
-.spinanim {
+.navbar-brand:hover {
 	animation-play-state: paused;
 }
 @keyframes spin {
@@ -423,7 +419,80 @@ transform: translate(93px,0px) rotate(0deg);
 100% {
 transform: translate(0px,0px);
 }
-}    
+}   
+h2.profile-text {
+/* Профиль пациента \ Больной Человек */
+position: absolute;
+width: 237px;
+height: 16px;
+left: 10%;
+top: 15%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+} 
+body.red {
+	background-color: red;
+}
+.main-profile {
+
+position: absolute;
+width: 70%;
+height: 211px;
+left: 10%;
+top: 22%;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+.img-profile {
+	/* фото профиля */
+
+position: absolute;
+width: 181px;
+height: 181px;
+left: 10%;
+
+
+background: url(images/profile.png);
+
+}
+.profile-dscr {
+position: absolute;
+width: 415px;
+height: 151px;
+left: 20%;
+top: 10%;
+}
+.profile-dscr h4 {
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 14px;
+color: #BDBDBD;
+position: absolute;
+width: 200px;
+height: 14px;
+left: 3%;
+top: 10%;
+}
+.profile-dscr h3 {
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 14px;
+color: #000000;
+position: absolute;
+width: 200px;
+height: 14px;
+left: 35%;
+top: 10%;
+}
 /*.block { 
 	background-image: url('./img/bg.png');
 	width: 1500px;
@@ -465,3 +534,4 @@ transform: translate(0px,0px);
 	background-image: url('./img/robot.png');
   background-repeat: no-repeat;
 } */
+
