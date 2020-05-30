@@ -1,6 +1,6 @@
 @font-face {
 	font-family: ProximaNova-Regular;
-	src : url(/fonts/ProximaNova-Regular.ttf);
+	src : url(./fonts/ProximaNova-Regular.ttf);
 
 	
 }
@@ -14,10 +14,6 @@ h1, h2, a, text, footer {
 	font-family: ProximaNova-Regular;
 }
 
-.lead {
-    font-family: ProximaNova-Regular;
-}
-
 
 .part1-1 {
 	background-image: url('./images/writing-hand-glass-finger-business-ear-701333-pxhere.com.jpg');
@@ -28,10 +24,10 @@ h1, h2, a, text, footer {
 	padding: 5% 10%;
 
 }
-.spinanim:hover {
-	animation: spin 3s ease-in-out ;
+.navbar-brand {
+	animation: spin 3s ease-in-out infinite;
 }
-.spinanim {
+.navbar-brand:hover {
 	animation-play-state: paused;
 }
 @keyframes spin {
@@ -325,7 +321,7 @@ transform: translate(0px,0px);
   margin-top: 51%;
 }
 .blood {
-  background-image: url('./img/blood.png');
+  background-image: url('./img/blood.png'); 
   background-repeat: no-repeat;
   background-size: 100%; 
   margin-left: 33%;
@@ -423,45 +419,7 @@ transform: translate(93px,0px) rotate(0deg);
 100% {
 transform: translate(0px,0px);
 }
-}    
-/*.block { 
-	background-image: url('./img/bg.png');
-	width: 1500px;
-	height: 745px;
-	margin: 10px auto;
-	padding: 10px;
 }
-
-.block__element {
-	background: none;
-	width: 15%;
-	height: 215px;
-	position: relative;
-	margin: 10px;
+h2.profile-text {
+/* Профиль пациента \ Больной Человек */
 }
-
-
-.flex-container {
-	display: flex;
-	flex-flow: column wrap;
-	justify-content: space-around;
-	align-items: center;
-	margin-top: 0px;
-}
-
-.flex-element {
-	order: 0;
-	flex-grow: 0;
-	flex-shrink:1;
-	flex-basis: auto;
-	align-self: auto;
-}
-
-.img6 {
-	background-image: url('./img/davl.png');
-  background-repeat: no-repeat;
-}
-.img7 {
-	background-image: url('./img/robot.png');
-  background-repeat: no-repeat;
-} */
