@@ -1,0 +1,42 @@
+<html>
+<head>
+<style>
+.mainmenubtn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+</style>
+</head>
+<body>
+<div class="dropdown">
+  <button class="mainmenubtn">About us</button>
+  <div class="dropdown-child">
+    <a href="http://www.вашдомен.ru/page1.html">Who we are</a>
+    <a href="http://www.вашдомен.ru/page2.html">Our developments-our goals</a>
+    <a href="http://www.вашдомен.ru/page3.html">Why Our Solutions</a>
+  </div>
+</div>
+</body>
+</html>
