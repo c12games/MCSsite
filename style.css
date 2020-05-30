@@ -321,7 +321,7 @@ transform: translate(0px,0px);
   margin-top: 51%;
 }
 .blood {
-  background-image: url('./img/blood.png');
+  background-image: url('./img/blood.png'); 
   background-repeat: no-repeat;
   background-size: 100%; 
   margin-left: 33%;
