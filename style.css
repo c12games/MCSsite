@@ -437,152 +437,7 @@ color: #FFFFFF;
 body.red {
 	background-color: red;
 }
-main.red {
-	margin: 0 auto;
-  padding: 0 20px;
-  background-color: red;
-}
-.container {
-background: #FFFFFF;
-border-radius: 10px;
-}
-.container p {
-  border-radius: 5px;
-  padding-top: 40px;
-  padding-left: 10px;
-  margin: 20px 0;
-  height: 211px;
-}
-.call {
-color: blue;
-padding-left: 70%;
-}
-h2 {
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
-color: #FFFFFF;
-padding-top:1%;
-}
-
-.darker {
-  border-color: #ccc;
-  background-color: #ddd;
-}
-
-.container::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.container img {
-  float: left;
-  max-width: 180px;
-  width: 100%;
-  margin-right: 5%;
-  margin-top: 3%;
-  padding-left: 20px;
-  padding-top: 3%;
-  
-}
-
-.container img.right {
-  float: right;
-  margin-left: 20px;
-  margin-right:0;
-}
-
-.time-right {
-  float: right;
-  color: #aaa;
-}
-
-.time-left {
-  float: left;
-  color: #999;
-}
-.block-3 {
-/* Связаться с пациентом: */
-
-
-position: absolute;
-width: 137px;
-height: 14px;
-left: 587px;
-top: 183px;
-
-/* текст полей */
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-/* identical to box height */
-
-
-color: #837F7F;
-
-}
-.button-call {
-width: 150px;
-height: 34px;
-left: 75%;
-top: 40%;
-float: bottom;
-background: #EB1111;
-border-radius: 180px;
-position: absolute;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-/* identical to box height */
-color: white;
-}
-.title-1 {
-position: absolute;
-width: 182px;
-height: 21px;
-left: 35%;
-top: 63%;
-
-/* Заголовки */
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height */
-
-
-color: #EB1111;
-}
-.title-2 {
-position: absolute;
-width: 182px;
-height: 21px;
-left: 45%;
-top: 113%;
-
-/* Заголовки */
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height */
-
-
-color: #EB1111;
-}
-/*.main-profile {
+.main-profile {
 
 position: absolute;
 width: 70%;
@@ -594,7 +449,7 @@ background: #FFFFFF;
 border-radius: 10px;
 }
 .img-profile {
-	
+	/* фото профиля */
 
 position: absolute;
 width: 181px;
@@ -638,13 +493,6 @@ height: 14px;
 left: 35%;
 top: 10%;
 }
-.svedenia {
-position: absolute;
-width: 707px;
-height: 243px;
-left: 51px;
-top: 297px;
-}*/
 /*.block { 
 	background-image: url('./img/bg.png');
 	width: 1500px;
