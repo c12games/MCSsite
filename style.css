@@ -321,7 +321,7 @@ transform: translate(0px,0px);
   margin-top: 51%;
 }
 .blood {
-  background-image: url('./img/blood.png'); 
+  background-image: url('./img/blood.png');
   background-repeat: no-repeat;
   background-size: 100%; 
   margin-left: 33%;
@@ -419,7 +419,7 @@ transform: translate(93px,0px) rotate(0deg);
 100% {
 transform: translate(0px,0px);
 }
-}
+}   
 h2.profile-text {
 /* Профиль пациента \ Больной Человек */
 }
