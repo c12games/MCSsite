@@ -81,7 +81,7 @@ h1, h2, a, text, footer {
 	opacity: 0.8;
   }
   .form-container .cancel {
-	background-color: #EB1111;
+	background-color: red;
   }
   
   .form-container .btn:hover, .open-button:hover {
@@ -111,7 +111,7 @@ h1, h2, a, text, footer {
 }
 
 .desc{
-	background-color:  #EB1111;
+	background-color: rgba(233, 20, 20, 0.5);
 	color:#ffffff;
 }
 
