@@ -1,0 +1,152 @@
+body {
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: red;
+  }
+  .container {
+  background: #FFFFFF;
+  border-radius: 15px;
+  }
+  .container p {
+    border-radius: 15px;
+    padding-top: 80px;
+    padding-left: 30px;
+    margin: 50px 0;
+    height: 271px;
+  }
+  .call {
+  color: blue;
+  padding-left: 70%;
+  }
+  h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  padding-top:1%;
+  }
+
+  .header{
+margin: 1%;
+margin-left: 5%;
+font-size: 150%;
+font-family: italic;
+  }
+  
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container img {
+    float: left;
+    max-width: 180px;
+    width: 100%;
+    margin-right: 5%;
+    margin-top: 0%;
+    padding-left: 20px;
+    padding-top: 3%;
+    
+  }
+  
+  .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  .time-left {
+    float: left;
+    color: #999;
+  }
+  .block-3 {
+  /* Связаться с пациентом: */
+  
+  
+  position: absolute;
+  width: 137px;
+  height: 14px;
+  left: 587px;
+  top: 183px;
+  
+  /* текст полей */
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  
+  
+  color: #837F7F;
+  
+  }
+  .button-call {
+  width: 150px;
+  height: 34px;
+  left: 75%;
+  top: 40%;
+  float: bottom;
+  background: #EB1111;
+  border-radius: 180px;
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  color: white;
+  }
+  .title-1 {
+  position: absolute;
+  width: 182px;
+  height: 21px;
+  left: 35%;
+  top: 85%;
+  
+  /* Заголовки */
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  
+  color: #EB1111;
+  }
+  .title-2 {
+  position: absolute;
+  width: 182px;
+  height: 21px;
+  left: 45%;
+  top: 150%;
+  
+  /* Заголовки */
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  
+  color: #EB1111;
+  }
