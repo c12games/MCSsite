@@ -96,8 +96,8 @@ font-family: italic;
   
   }
   .button-call {
-height: auto;
-width: auto;
+max-height: 50px;
+max-width: 150px;
   left: 5%;
   top: 5%;
   background: #EB1111;
