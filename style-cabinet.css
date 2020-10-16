@@ -96,19 +96,15 @@ font-family: italic;
   
   }
   .button-call {
-  width: 150px;
-  height: 34px;
-  left: 75%;
-  top: 40%;
-  float: bottom;
+height: auto;
+width: auto;
+  left: 5%;
+  top: 5%;
   background: #EB1111;
-  border-radius: 180px;
-  position: absolute;
+  border-radius: 18%;
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 150%;
+  line-height: 1.5;
   /* identical to box height */
   color: white;
   }
