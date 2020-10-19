@@ -97,18 +97,18 @@ font-family: italic;
   }
   
   .button-call {
-max-height: 60px;
-max-width: 140px;
-  left: 4%;
-  top: 6%;
-  background: #EB1111;
-  border-radius: 18%;
-  font-family: Roboto;
-  font-size: 150%;
-  line-height: 1.7;
-  /* identical to box height */
-  color: white;
-  }
+    max-height: 50px;
+    max-width: 150px;
+      left: 5%;
+      top: 5%;
+      background: #EB1111;
+      border-radius: 25%;
+      font-family: Roboto;
+      font-size: 130%;
+      line-height: 1.5;
+      /* identical to box height */
+      color: white;
+      }
 
   .title-1 {
   position: absolute;
