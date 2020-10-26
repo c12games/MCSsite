@@ -6,13 +6,14 @@
 </head>
 <body>
 <style>
-a.button-call{
-  position: relative;
+.button-call{
+  max-height: 80px;
+    max-width: 150px;
+      left: 5%;
+      top: 5%;
   color: white;
   font-weight: bold;
-  text-decoration: none;
   text-shadow: -1px -1px #FF0000;
-  user-select: none;
   padding: .8em 2em;
   outline: none;
   background-color: #FF0000;
@@ -22,11 +23,11 @@ a.button-call{
   background-position: 200% 0, 0 0;
   box-shadow: rgba(0,0,0,.3) 0 2px 5px;
 } 
-a.button1-call:active {
+.button1-call:active {
   top: 1px;
   box-shadow: none;
 }
-a.button-call:hover {
+.button-call:hover {
   transition: .5s linear;
   background-position: -200% 0, 0 0;
 }
@@ -42,7 +43,7 @@ a.button-call:hover {
     <td width="80%"><p>Пациент : Больной Человек </br> Имя : Человек</br>Фамилия : Больной</br>Пол : мужской</br>Дата рождения : 21.01.2005</br>Группа крови: III</br>Диагноз: грипп,повышенная температура<br> Температура: 38,2(30.10.2020)</br>Давление: 120/80<br>Пульс: 92удар/мин<br>Лекарства: ибуфен,арпетол,синупрет,риваксан<br>Таблетки принял: да/нет<br>Дата приема лекарств:01.11.2020</p></td>
   </table>
  
-  <div style="float: center;"><div class="button-call"></br>&nbsp;&nbsp;&nbsp;Отправить сообщение:</div></div>
+  <button class="button-call"></br>&nbsp;&nbsp;&nbsp;Отправить сообщение:</button>
 
 
  <h1>Пациент №2 </h1>
