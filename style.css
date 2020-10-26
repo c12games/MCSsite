@@ -37,16 +37,6 @@ h1, h2, a, text, footer {
 	25% {transform: rotate(180deg);}
 	100%{transform: rotate(360deg);}
 }
-#head{
-	width: 1000px;
-	height: 60px;
-	position: fixed;
-	background: #FF0000;
-	z-index: 1000;
-}
-#content {
-margin-top: 60px;
-}
 .open-button {
 	background-color: #555;
 	color: white;
