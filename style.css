@@ -441,7 +441,7 @@ h2.profile-text {
 	text-align: center;
 	width: 100px;
 	float: center;
-	border: 2.5px solid rgb(109, 109, 109);
+	border: 2.5px solid black;
 	border-radius: 4px;
 	font-size: 30px;
 	color: white;
