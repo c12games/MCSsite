@@ -25,6 +25,7 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      <nav id="up" 
       <div class="container">
         <a class="navbar-brand" href="#">
           <div class="heart"><img src='./images/логотип.png' width="37" height="37" class="d-inline-block align-top" alt=""></div>
@@ -81,7 +82,7 @@
     <section id="about_us">
       <div class="jumbotron jumbotron-fluid part1-1" data-aos="fade-up">
         <div class="container desc">
-          <h1 id="up">ABOUT US</h1>
+          <h1>ABOUT US</h1>
           <h2 class="display-4">Who we are</h2>
           <text class="lead">We are the developers of MCS(Medical Care System). We are testing our first developments, a robot medical assistant. Our team consists of two people. We are moving very fast. New ideas for developing our devices are constantly coming. Not far off is the day when we launch our devices in mass production!</text>
         </div>
@@ -239,12 +240,18 @@
        </section>
   </main>
   <div class="up">
-  <a href="#up">Up↑</a>
+    <a href="#up"><button type="button" class="btn btn-outline-danger">UP↑</button>
+      </a>
   </div>
-  <footer class="podval">
-    &copy; MCS, 2020
-  </footer>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!--<footer class="podval">
+   <p>&copy; MCS, 2020</p>
+  </footer>-->
+ 
+    <div class="lop"><img src="/mcs.github.io/images/logotip3.jpg" height="40" width="40"></div>
+    <h2 class="pol">Medical Care System</h2>
+    <p class="soc">Мы в соцсетях:</p>
+
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   function openForm() {
     document.getElementById("myForm").style.display = "block";
@@ -270,5 +277,7 @@
     firebase.initializeApp(config);
   </script>
   <script src="app.js"></script>
+  
+  
 </body>
 </html>   
