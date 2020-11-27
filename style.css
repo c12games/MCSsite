@@ -515,6 +515,9 @@ h2.profile-text {
 	padding-left: 655px;
 	color: grey;
 }
-.all{
-	background-color: red;
+.mcs{
+	padding-right: 300px;
+	color: white;
+	font-size: 28px;
+	padding-top: 10px;
 }
