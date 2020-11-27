@@ -457,59 +457,64 @@ h2.profile-text {
 }
 .soc{
 	position: absolute;
-	padding-left: 600px;
+	padding-left: 400px;
 	padding-top: 35px;
-	height:400px;
+	height:100px;
 }
 .insta{
 	position: absolute;
 	padding-top: 60px;
-	padding-left: 550px;
+	padding-left: 340px;
 }
 .vk{
 	position: absolute;
 	padding-top: 60px;
-	padding-left: 600px;
+	padding-left: 390px;
 }
 .fasebook{
 	position: absolute;
 	padding-top: 60px;
-	padding-left: 655px;
+	padding-left: 450px;
 }
 .telegram{
 	position: absolute;
 	padding-top: 60px;
-	padding-left: 700px;
+	padding-left: 495px;
 }
 .twitter{
 	position: absolute;
 	padding-top: 60px;
-	padding-left: 750px;
+	padding-left: 545px;
 }
 .gmail{
 	position: absolute;
 	padding-top: 35px;
-	padding-left: 1000px;
+	padding-left: 950px;
 }
 .gmal{
 	position: absolute;
 	padding-top: 80px;
-	padding-left: 1125px;
+	padding-left: 1070px;
 }
 .почта{
 	position: absolute;
 	padding-top: 55px;
-	padding-left: 1010px;
+	padding-left: 965px;
 	color: grey;
 }
 .hit{
 	position: absolute;
 	padding-top:120px;
-	padding-left: 690px;
+	padding-left: 720px;
+
+
 }
 .loli{
 	position: absolute;
-	padding-top:300px;
-	padding-left: 630px;
+	padding-top:220px;
+	padding-left: 655px;
 	color: grey;
+}
+.all{
+	background-color: red;
 }
