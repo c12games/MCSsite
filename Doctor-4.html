@@ -3,9 +3,11 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="./images/LOGOTOIP.ico" type="image/x-icon">
+
 </head>
 <body>
 <style>
+  body { background-color:#E0FFFF}
 .button-call{
   max-height: 80px;
     max-width: auto;
@@ -33,9 +35,14 @@
   transition: .5s linear;
   background-position: -200% 0, 0 0;
 }
-</style>
-<style>
- body { background: url(images/Голубой\ фон\(1\).jpg); }
+.td{
+  padding: 5px;
+  padding-right: 30px;
+  border: 1px solid red;
+}
+.tabl{
+  border-collapse:collapse;
+}
 </style>
 
 <h1>Patient profiles:</h1>
@@ -75,5 +82,63 @@
       <td width="80%"><p>Patient: Смирнова Мария </br> Name: Мария</br>Surname: Смирнова</br>Gender: women</br>Date of birth:21.07.2010</br>Blood type: III</br>Diagnosis: Головая боль, высокое давление<br> Temperature: 37,0(28.10.2020)</br>Pressure: 131/94<br>Pulse: 74/min<br>Medicines: Седальгин,цитрамон<br>Tablets are taken: yes<br>Medication intake date: 02.10.2020</p></td>
    </table>
    <button class="button-call">Send a message:</button>
+   <table class="tabl">
+    <tr>
+      <td class="td"><b>Ваши пациенты</b></td>
+      <td class="td"><b>Имя</b></td>
+      <td class="td"><b>Фамилия</b></td>
+      <td class="td"><b>Пол</b></td>
+      <td class="td"><b>Дата рождения</b></td>
+      <td class="td"><b>Группа крови</b></td>
+      <td class="td"><b>Диагноз</b></td>
+      <td class="td"><b>Температура</b></td>
+      <td class="td"><b>Давление</b></td>
+      <td class="td"><b>Пульс</b></td>
+      <td class="td"><b>Лекарства</b></td>
+      <td class="td"><b>Дата приема лекарств</b></td>
+      </tr>
+      <tr>
+        <td class="td"><b>Пациент №1</b></td>
+        <td class="td">Вадим</td>
+        <td class="td">Крючков</td>
+        <td class="td">Мужской</td>
+        <td class="td">09.07.1978</td>
+        <td class="td">III</td>
+        <td class="td">Грипп,головная боль</td>
+        <td class="td">37,9</td>
+        <td class="td">128/91</td>
+        <td class="td">101 / мин</td>
+        <td class="td">Парацетамол, Нурофен, Ибуклин, Ринза</td>
+        <td class="td">Отсутствует</td>
+  </tr>
+  <tr>
+    <td class="td"><b>Пациент №2</b></td>
+    <td class="td">Александр</td>
+    <td class="td">Белл</td>
+    <td class="td">Мужской</td>
+    <td class="td">18.04.1998</td>
+    <td class="td">II</td>
+    <td class="td">Отсутствует</td>
+    <td class="td">37,3</td>
+    <td class="td">120/80</td>
+    <td class="td">98/min</td>
+    <td class="td">Отсутсвует</td>
+    <td class="td">Отсутвует</td>
+  </tr>
+  <tr>
+    <td class="td"><b>Пациент №3</b></td>
+    <td class="td">Кирилл</td>  
+    <td class="td">Голинский</td> 
+    <td class="td">Мужской</td>
+    <td class="td">19.05.1956</td>
+    <td class="td">I</td>
+    <td class="td">Головная боль</td>
+    <td class="td">37,6</td>
+    <td class="td">117/87</td>
+    <td class="td">101 / мин</td>
+    <td class="td">Аспирин , Терафлю, Ибуклин</td>
+    <td class="td">01.11.2020</td>
+  </tr>
+  </table>
 </body>
 </html>
