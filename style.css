@@ -108,6 +108,7 @@ h1, h2, a, text, footer {
 	background-image: url('./images/наши\ идеи.jpg');
 	background-repeat: no-repeat;
 	background-size: 1700px 950px;
+	background-position: center;
 
 	 padding: 25% 10%;
 }
