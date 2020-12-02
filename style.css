@@ -107,7 +107,7 @@ h1, h2, a, text, footer {
 .part1-2{
 	background-image: url('./images/наши\ идеи.jpg');
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 1700px 950px;
 
 	 padding: 25% 10%;
 }
@@ -123,6 +123,8 @@ h1, h2, a, text, footer {
 .desc{
 	background-color: rgba(233, 20, 20, 0.5);
 	color:#ffffff;
+	opacity: .9;
+	
 }
 
 .name{
@@ -532,4 +534,3 @@ text-align: center;
 .strel{
 	font-size: 20px;
 }
-
