@@ -526,13 +526,11 @@ h2.profile-text {
 }
 .почта:hover{
 text-decoration:underline;
+color: blue;
 }
-.med:hover{
-	color:green;
+.up{
+text-align: center;
 }
-.car:hover{
-	color:red;
-}
-.sys:hover{
-	color: green;
+.strel{
+	font-size: 20px;
 }
