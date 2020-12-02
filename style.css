@@ -116,30 +116,23 @@ h1, h2, a, text, footer {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-
 	padding: 5% 10%;
 }
-
 .desc{
 	background-color: rgba(233, 20, 20, 0.5);
 	color:#ffffff;
 	opacity: .9;
 	
 }
-
 .name{
 	font: outline;
 }
- 
-
 .part2 {
 	background-image: url('./images/band.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-
 	padding: 10% 1%;
 }
-
 .part3 {
 	background-image: url('./images/robots.jpg');
 	background-repeat: no-repeat;
