@@ -107,7 +107,7 @@ h1, h2, a, text, footer {
 .part1-2{
 	background-image: url('./images/наши\ идеи.jpg');
 	background-repeat: no-repeat;
-	background-size: 1700px 950px;
+	background-size: 1200px 700px;
 	background-position: center;
 
 	 padding: 25% 10%;
@@ -527,4 +527,19 @@ text-align: center;
 }
 .strel{
 	font-size: 20px;
+}
+.vew{
+position: absolute;
+	padding-top: 300px;
+	font-size: 21px;
+	text-decoration: none;
+	font-family: Roboto;
+}
+.eva{
+	position: absolute;
+	padding-top: 305px;
+	padding-left: 460px;
+}
+a:hover{
+	text-decoration:none;
 }
