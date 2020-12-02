@@ -48,8 +48,8 @@ h1, h2, a, text, footer {
 	...
   }
 .open-button {
-	background-color: #555;
-	color: white;
+	background-color: white;
+	color: red;
 	padding: 16px 20px;
 	border: none;
 	cursor: pointer;
@@ -532,4 +532,4 @@ text-align: center;
 .strel{
 	font-size: 20px;
 }
-.lolipop{}
+
