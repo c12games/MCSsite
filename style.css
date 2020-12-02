@@ -519,8 +519,7 @@ h2.profile-text {
 	font-size: 18px;
 }
 .почта:hover{
-text-decoration:underline;
-color: blue;
+color: red;
 }
 .up{
 text-align: center;
@@ -537,9 +536,12 @@ position: absolute;
 }
 .eva{
 	position: absolute;
-	padding-top: 305px;
+	padding-top: 297.5px;
 	padding-left: 460px;
+	font-size:22px;
 }
 a:hover{
 	text-decoration:none;
+	color: red;
+	padding-top: 300px;
 }
