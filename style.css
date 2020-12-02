@@ -526,5 +526,13 @@ h2.profile-text {
 }
 .почта:hover{
 text-decoration:underline;
-color: blue;
+}
+.med:hover{
+	color:green;
+}
+.car:hover{
+	color:red;
+}
+.sys:hover{
+	color: green;
 }
