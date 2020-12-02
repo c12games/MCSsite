@@ -528,6 +528,7 @@ text-align: center;
 	font-size: 20px;
 }
 .vew{
+	color: black;
 position: absolute;
 	padding-top: 300px;
 	font-size: 21px;
@@ -543,5 +544,5 @@ position: absolute;
 a:hover{
 	text-decoration:none;
 	color: red;
-	padding-top: 300px;
+	
 }
