@@ -544,5 +544,7 @@ position: absolute;
 a:hover{
 	text-decoration:none;
 	color: red;
-	
+}
+.ded{
+	padding-top: 700px;
 }
