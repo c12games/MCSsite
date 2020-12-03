@@ -456,28 +456,28 @@ h2.profile-text {
 }
 .insta{
 	position: absolute;
-	padding-top: 60px;
-	padding-left: 340px;
+	margin-top: 60px;
+	margin-left: 340px;
 }
 .vk{
 	position: absolute;
-	padding-top: 60px;
-	padding-left: 390px;
+	margin-top: 60px;
+	margin-left: 390px;
 }
 .fasebook{
 	position: absolute;
-	padding-top: 60px;
-	padding-left: 450px;
+	margin-top: 60px;
+	margin-left: 450px;
 }
 .telegram{
 	position: absolute;
-	padding-top: 60px;
-	padding-left: 495px;
+	margin-top: 60px;
+	margin-left: 495px;
 }
 .twitter{
 	position: absolute;
-	padding-top: 60px;
-	padding-left: 545px;
+	margin-top: 60px;
+	margin-left: 545px;
 }
 .gmail{
 	position: absolute;
@@ -486,26 +486,23 @@ h2.profile-text {
 }
 .gmal{
 	position: absolute;
-	padding-top: 80px;
-	padding-left: 1070px;
+	margin-top: 80px;
+	margin-left: 1070px;
 }
 .почта{
 	position: absolute;
-	padding-top: 55px;
-	padding-left: 965px;
+	margin-top: 55px;
+	margin-left: 965px;
 	color: grey;
 }
 .hit{
 	position: absolute;
-	padding-top:120px;
-	padding-left: 720px;
-
-
+	margin-top:120px;
+	margin-left: 720px;
 }
 .loli{
-	position: absolute;
-	padding-top:220px;
-	padding-left: 655px;
+	margin-top:220px;
+	margin-left: 655px;
 	color: grey;
 }
 .mcs{
