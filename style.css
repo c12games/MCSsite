@@ -11,8 +11,9 @@
 h1, h2, a, text, footer {
 	font-family: ProximaNova-Regular;
 }
-
-
+.nav-item{
+	font-size:18px;
+}
 .part1-1 {
 	background-image: url('./images/appbg.jpg.jpg');
 	background-repeat: no-repeat;
