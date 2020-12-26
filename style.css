@@ -573,3 +573,8 @@ a:hover{
 .form-container .BTN:hover, .open-button:hover {
 	opacity: 1;
 }
+.kp{
+	position: absolute;
+	padding-bottom: 50px;
+	padding: 30px;
+}
