@@ -255,7 +255,10 @@ transform: translate(-100px,0px) rotate(0deg);
 transform: translate(0px,0px);
 }
 } 
-
+.pto{
+	background-color: rgba(233, 233, 233, 0.514);
+	height: 300px;
+}
 .grad {
   background-image: url('./img/grad.png');
   background-repeat: no-repeat;
@@ -280,6 +283,7 @@ transform:  translate(-200px,0);
 transform:  translate(0,0);
 }
 }    
+
 .hand {
   box-sizing: border-box;
   background-image: url('./img/hand.png');
@@ -394,6 +398,17 @@ transform:  translate(0,0);
   margin-left: 33%;
   margin-top: 5%;
 }
+.bio{
+	margin-top: 12px;
+}
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+body{
+	margin-top: 1;
+}
 .robot:hover .arrow {
 display: block;
 position: absolute;
@@ -432,7 +447,6 @@ h2.profile-text {
 	font-size: 32px;
 	width: 200px;
 	position: center;
-
 }
 .UP{
 	transition: 4s;
