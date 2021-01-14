@@ -498,7 +498,7 @@ h2.profile-text {
 .gmal{
 	position: absolute;
 	margin-top: 80px;
-	margin-left: 1120px;
+	margin-left: 1115px;
 }
 .почта{
 	position: absolute;
@@ -580,4 +580,8 @@ a:hover{
 }
 .q{
 	border-radius: 50%;
+}
+.ut{
+	background-color: rgb(245, 245, 245);
+	height: 335px;
 }
