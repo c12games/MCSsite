@@ -461,39 +461,39 @@ h2.profile-text {
 }
 .soc{
 	position: absolute;
-	padding-left: 400px;
-	padding-top: 35px;
+	margin-left: 430px;
+	margin-top: 25px;
 	height:100px;
 }
 .insta{
 	position: absolute;
 	margin-top: 60px;
-	margin-left: 340px;
+	margin-left: 335px;
 }
 .vk{
 	position: absolute;
 	margin-top: 60px;
-	margin-left: 390px;
+	margin-left: 400px;
 }
 .fasebook{
 	position: absolute;
 	margin-top: 60px;
-	margin-left: 450px;
+	margin-left: 465px;
 }
 .telegram{
 	position: absolute;
 	margin-top: 60px;
-	margin-left: 495px;
+	margin-left: 530px;
 }
 .twitter{
 	position: absolute;
 	margin-top: 60px;
-	margin-left: 545px;
+	margin-left: 595px;
 }
 .gmail{
 	position: absolute;
-	padding-top: 35px;
-	padding-left: 950px;
+	margin-top: 35px;
+	margin-left: 950px;
 }
 .gmal{
 	position: absolute;
@@ -577,4 +577,7 @@ a:hover{
 	position: absolute;
 	padding-bottom: 50px;
 	padding: 30px;
+}
+.q{
+	border-radius: 50%;
 }
