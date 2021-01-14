@@ -462,48 +462,48 @@ h2.profile-text {
 .soc{
 	position: absolute;
 	margin-left: 430px;
-	margin-top: 25px;
+	margin-top: 27px;
 	height:100px;
 }
 .insta{
 	position: absolute;
 	margin-top: 60px;
-	margin-left: 335px;
+	margin-left: 375px;
 }
 .vk{
 	position: absolute;
 	margin-top: 60px;
-	margin-left: 400px;
+	margin-left: 440px;
 }
 .fasebook{
 	position: absolute;
 	margin-top: 60px;
-	margin-left: 465px;
+	margin-left: 505px;
 }
 .telegram{
 	position: absolute;
-	margin-top: 60px;
-	margin-left: 530px;
+	margin-top: 58px;
+	margin-left: 570px;
 }
 .twitter{
 	position: absolute;
-	margin-top: 60px;
-	margin-left: 595px;
+	margin-top: 58.5px;
+	margin-left: 635px;
 }
 .gmail{
 	position: absolute;
-	margin-top: 35px;
-	margin-left: 950px;
+	margin-top: 27px;
+	margin-left: 1000px;
 }
 .gmal{
 	position: absolute;
 	margin-top: 80px;
-	margin-left: 1070px;
+	margin-left: 1120px;
 }
 .почта{
 	position: absolute;
 	margin-top: 55px;
-	margin-left: 965px;
+	margin-left: 1003px;
 	color: grey;
 }
 .hit{
@@ -512,7 +512,7 @@ h2.profile-text {
 	margin-left: 720px;
 }
 .loli{
-	margin-top:220px;
+	margin-top:205px;
 	margin-left: 655px;
 	color: grey;
 }
@@ -575,7 +575,7 @@ a:hover{
 }
 .kp{
 	position: absolute;
-	padding-bottom: 50px;
+	margin-bottom: 50px;
 	padding: 30px;
 }
 .q{
