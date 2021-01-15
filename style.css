@@ -15,7 +15,7 @@ h1, h2, a, text, footer {
 	font-size:18px;
 }
 .part1-1 {
-	background-image: url('./images/appbg.jpg.jpg');
+	background-image: url('./images/appbg.jpg.jpg');/*Вставить картинку нашей команды*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;	
