@@ -581,6 +581,12 @@ a:hover{
 	border-radius: 50%;
 }
 .ut{
-	background-color: rgb(245, 245, 245);
+	background-color: rgb(247, 247, 247);
 	height: 335px;
+}
+@media only screen and (max-width: 500){
+	.mcs{
+		width: 80%;
+		background-color: green;
+	}
 }
