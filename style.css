@@ -43,8 +43,7 @@ h1, h2, a, text, footer {
 	}
   }
   .heart {
-	animation: heartbeat 1s infinite; // наше сердце будет биться безконечно
-	...
+	animation: heartbeat 1s infinite;
   }
 .open-button {
 	background-color: white;
