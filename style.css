@@ -15,12 +15,13 @@ h1, h2, a, text, footer {
 	font-size:18px;
 }
 .part1-1 {
-	background-image: url('./images/Мы.jpeg');/*Вставить картинку нашей команды*/
+	background-image: url('./images/Мы.jpeg');
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	height: 750px;
 	background-position: top center -20% auto;	
 	padding: 5% 10%;
+	background-color: white;
 }
 .navbar-brand {
 	animation: spin 3s ease-in-out infinite;
@@ -137,8 +138,9 @@ h1, h2, a, text, footer {
 	background-image: url('./images/robots.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-
+	background-position: center;
 	padding: 5% 10%;
+	background-color: white;
 }
 
 .part4 {
@@ -453,77 +455,60 @@ h2.profile-text {
 
 }
 .pol{
-	position: absolute;
-	padding-left:82px;
-	padding-top:27px;
+
+	
 }
 .lop{
-	position: absolute;
-	padding-left:35px;
-	padding-top: 27px;
+	
+	
 }
 .soc{
-	position: absolute;
-	margin-left: 430px;
-	margin-top: 27px;
-	height:100px;
+	
 }
 .insta{
-	position: absolute;
-	margin-top: 60px;
-	margin-left: 375px;
+	margin: 0 15px;
 }
+	
 .vk{
-	position: absolute;
-	margin-top: 60px;
-	margin-left: 440px;
+margin: 0 15px;
 }
 .fasebook{
-	position: absolute;
-	margin-top: 60px;
-	margin-left: 505px;
+	margin: 0 15px;
 }
 .telegram{
-	position: absolute;
-	margin-top: 58px;
-	margin-left: 570px;
+	margin: 0 15px;
 }
 .twitter{
-	position: absolute;
-	margin-top: 58.5px;
-	margin-left: 635px;
+	margin: 0 15px;		
 }
 .gmail{
-	position: absolute;
-	margin-top: 27px;
-	margin-left: 1000px;
+
+
 }
 .gmal{
-	position: absolute;
-	margin-top: 80px;
-	margin-left: 1115px;
+	text-align: center;
+	
+}
+.das{
+	text-align: center;
+	margin-top: -120px;
 }
 .почта{
-	position: absolute;
-	margin-top: 55px;
-	margin-left: 1003px;
-	color: grey;
+	
+	
 }
 .hit{
-	position: absolute;
-	margin-top:120px;
-	margin-left: 720px;
+
 }
 .loli{
-	margin-top:205px;
-	margin-left: 655px;
+	
 	color: grey;
 }
 .mcs{
-	padding-right: 300px;
+
 	color: white;
 	font-size: 28px;
-	padding-top: 10px;
+
 }
 .font{
 	font-size: 18px;
@@ -539,16 +524,13 @@ text-align: center;
 }
 .vew{
 	color: black;
-position: absolute;
-	padding-top: 300px;
-	font-size: 21px;
+		font-size: 21px;
 	text-decoration: none;
 	font-family: Roboto;
 }
 .eva{
-	position: absolute;
-	padding-top: 297.5px;
-	padding-left: 440px;
+
+
 	font-size:22px;
 }
 a:hover{
@@ -556,7 +538,7 @@ a:hover{
 	color: red;
 }
 .ded{
-	padding-top: 700px;
+	
 }
 .information{
 	font-size:22px;
@@ -577,9 +559,20 @@ a:hover{
 	opacity: 1;
 }
 .kp{
-	position: absolute;
-	margin-bottom: 50px;
-	padding: 30px;
+	width: 33%;
+}
+.socseti{
+	width: 33%;
+	text-align: center;
+}
+.bi{
+	width: 33%;
+	text-align: center;
+}
+.ikonki{
+	display: flex;
+justify-content: center;
+	align-items: center;
 }
 .q{
 	border-radius: 50%;
@@ -588,9 +581,28 @@ a:hover{
 	background-color: rgb(247, 247, 247);
 	height: 335px;
 }
-@media (max-width: 500){
-	.mcs{
-		width: 80%;
-		background-color: green;
+.footer-container{
+	display: flex;
+	justify-content: space-between;
+}
+@media (max-width: 850px){
+	.footer-container{
+		flex-direction: column;
+		align-items: center;
+	}
+	.ut{
+		height: 695px;
+	}
+	.kp{
+		text-align: center;
+	}
+	.kp, .socseti, .bi{
+		margin: 13px 0;
+	}
+	.part3{
+		background-size: contain;
+	}
+	.part1-1{
+		height: 500px;
 	}
 }
