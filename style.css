@@ -15,10 +15,11 @@ h1, h2, a, text, footer {
 	font-size:18px;
 }
 .part1-1 {
-	background-image: url('./images/appbg.jpg.jpg');/*Вставить картинку нашей команды*/
+	background-image: url('./images/Мы.jpeg');/*Вставить картинку нашей команды*/
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;	
+	height: 750px;
+	background-position: top center -20% auto;	
 	padding: 5% 10%;
 }
 .navbar-brand {
@@ -266,7 +267,7 @@ display: block;
 position: absolute;
 top: 48.6%;
 left: 172%;
-border: 20px solid transparent; border-left: 20px solid red;
+border: 20px solid transparent; border-left: 20px solid rgb(255, 251, 0);
 animation-name: arrowg;
 animation-duration: 2s;
 animation-fill-mode:forwards;  
@@ -388,9 +389,9 @@ transform:  translate(0,0);
 }
 }    
 .robot {
-  background-image: url('./img/robot.png');
+  background-image: url('./img/робот.jpg');
   background-repeat: no-repeat;
-  background-size: 100%; 
+  background-size: 90%; 
   margin-left: 33%;
   margin-top: 5%;
 }
@@ -400,7 +401,10 @@ transform:  translate(0,0);
 header{
 	position: fixed;
 	top: 0;
+	left: 0;
+	z-index: 10000;
 	width: 100%;
+	max-height: 10vh; 
 }
 body{
 	margin-top: 1;
@@ -410,7 +414,7 @@ display: block;
 position: absolute;
 top: -47.5%;
 left: -66%;
-border: 20px solid transparent; border-left: 20px solid yellow;
+border: 20px solid transparent; border-left: 20px solid rgb(255, 0, 0);
 animation-name: arrowr;
 animation-duration: 3s;
 animation-fill-mode:forwards; 
