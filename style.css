@@ -458,8 +458,11 @@ margin: 0 15px;
 	color: grey;
 }
 .mcs{
+	position: absolute;
 	color: white;
 	font-size: 28px;
+	bottom: 1px;
+	left: 280px;
 }
 .font{
 	font-size: 18px;
@@ -506,6 +509,7 @@ a:hover{
 }
 .kp{
 	width: 33%;
+	margin-left: 30px;
 }
 .socseti{
 	width: 33%;
