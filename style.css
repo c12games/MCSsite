@@ -1,534 +1,77 @@
-@font-face {
-	font-family: ProximaNova-Regular;
-	src : url(./fonts/ProximaNova-Regular.ttf);
+::selection {
+background: rgba(200, 32, 32, 0.2);
+}
+::-moz-selection {
+background: rgba(200, 32, 32, 0.2);
 }
 
 @font-face {
-	font-family: ProximaNova-Bold;
-	src: url(/fonts/ProximaNova-Bold.ttf);
+font-family: ProximaNova-Regular;
+src : url(./fonts/ProximaNova-Regular.ttf);
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: ProximaNova-Bold;
+src: url(/fonts/ProximaNova-Bold.ttf);
+font-weight: normal;
+font-style: normal;
 }
 
-h1, h2, a, text, footer {
-	font-family: ProximaNova-Regular;
-}
-.nav-item{
-	font-size:18px;
-}
-.part1-1 {
-	background-image: url('./images/appbg.jpg.jpg');/*Вставить картинку нашей команды*/
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;	
-	padding: 5% 10%;
-}
-.navbar-brand {
-	animation: spin 3s ease-in-out infinite;
-}
-.navbar-brand:hover {
-	animation-play-state: paused;
-}
-@keyframes heartbeat {
-	0% {
-	  transform: scale( 1 );    
-	}
-	20% {
-	  transform: scale( 1.25 ) 
-		translateX(5%) 
-		translateY(5%);
-	} 
-	40% {
-	  transform: scale( 1.5 ) 
-		translateX(9%) 
-		translateY(10%);
-	}
-  }
-  .heart {
-	animation: heartbeat 1s infinite;
-  }
-.open-button {
-	background-color: white;
-	color: red;
-	padding: 16px 20px;
-	border: none;
-	cursor: pointer;
-	opacity: 0.8;
-	
-  }
-  .form-popup {
-	display: none;
-	position: fixed;
-	bottom: 20%;
-	right: 35%;
-	border: 3px solid #f1f1f1;
-	z-index: 9;
-  }
-  .form-container {
-	max-width: 300px;
-	padding: 10px;
-	background-color: white;
-  }
-  .form-container input[type=text], .form-container input[type=password] {
-	width: 100%;
-	padding: 15px;
-	margin: 5px 0 22px 0;
-	border: none;
-	background: #f1f1f1;
-  }
-  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
-	background-color: #ddd;
-	outline: none;
-  }
-  .form-container .btn {
-	background-color: #4CAF50;
-	color: white;
-	padding: 16px 20px;
-	border: none;
-	cursor: pointer;
-	width: 100%;
-	margin-bottom:10px;
-	opacity: 0.8;
-  }
-  .form-container .cancel {
-	background-color: red;
-  }
-  
-  .form-container .btn:hover, .open-button:hover {
-	opacity: 1;
-  }
-.main {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-
-	padding: 5% 10%;
-}
-.part1-2{
-	background-image: url('./images/наши\ идеи.jpg');
-	background-repeat: no-repeat;
-	background-size: 1565px 975px;
-	background-position: center;
-
-	 padding: 25% 10%;
-}
-.part1-3 {
-	background-image: url('./images/Решения.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	padding: 5% 10%;
-}
-.desc{
-	background-color: rgba(233, 20, 20, 0.5);
-	color:#ffffff;
-	opacity: .9.9;
-	
-}
-.name{
-	font: outline;
-}
-.part2 {
-	background-image: url('./images/band.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 10% 1%;
-}
-.part3 {
-	background-image: url('./images/robots.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-
-	padding: 5% 10%;
-}
-
-.part4 {
-	background-image: url('./images/appbg.jpg\ \(2\).jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-
-	padding: 5% 10%;
-}
-
-.part5 {
-	background-color: #fff;
-	padding: 1% 10%;
-}
-.lol {
-	display: inline;
-	margin: 5px;
-	border: 1px #ffffff;
-	padding: 3px;
-}
-
-.jumbotron {
-	margin: 0em;
-}
-html, body {
-	overflow-x: hidden;
-}
-
-.photocard {
-	width: 280px;
-	height: 280px;
-}
-
-.podval {
-	background-color: red;
-	color: #ffffff;
-}
-
-
-
-@media only screen and (max-width:420px){
-	.display-4{
-		font-size: 2rem;
-	}
-}
- 
-.hospitals {
-	width: 1580px;
-	height: 1080px;
-}
-
-.picture-animation {
-	/*background-color: blue;*/
-	background-image: url('./img/bg.png');
-	height: 110%;
-	display: inline-flex;
-	width: 100%;
-	margin-bottom: 30px;
-}
-.picture-animation .picture-animation-left,.picture-animation-center,.picture-animation-right{
-	width: 33.3%;
-	display: block;
-}
-
-.med-pic {
-	/*display: flex;*/
-	height: 215px;
-	width: 215px;
-	font-size: 0;
-	box-sizing: border-box;
-}
-.med-pic:hover {
--webkit-transform: scale(1.5);
--ms-transform: scale(1.5);
-transform: scale(1.5);
-}
-.arrow {
-display: none;
-border: 20px solid transparent; border-left: 20px solid green; 
-}
-.vesy {
-  background-image: url('./img/vesy.png');
-  background-repeat: no-repeat;
-  margin-left: 15%;
-   margin-top: 5%;
-}
-.vesy:hover .arrow {
-display: block;
-position: absolute;
-top: 128%;
-left: 170%;
-animation-name: arrow;
-animation-duration: 3s;
-animation-fill-mode:forwards;  
-}
-@keyframes arrow {
-0% {
-transform:  translate(-200px,-183.5px);
-}
-20%{
-transform:  translate(-100px,-183.5px);
-}
-40% {
-transform:  translate(-100px,-183.5px) rotate(90deg);
-}
-60% {
-transform:  translate(-100px, 0) rotate(90deg);
-}
-80% {
-transform: translate(-100px,0px) rotate(0deg);
-}
-100% {
-transform: translate(0px,0px);
-}
-} 
-
-.grad {
-  background-image: url('./img/grad.png');
-  background-repeat: no-repeat;
-  margin-left: 10%;
-  margin-top: 8%;
-}
-.grad:hover .arrow {
-display: block;
-position: absolute;
-top: 48.6%;
-left: 172%;
-border: 20px solid transparent; border-left: 20px solid red;
-animation-name: arrowg;
-animation-duration: 2s;
-animation-fill-mode:forwards;  
-}
-@keyframes arrowg {
-0% {
-transform:  translate(-200px,0);
-}
-100% {
-transform:  translate(0,0);
-}
-}    
-
-.hand {
-  box-sizing: border-box;
-  background-image: url('./img/hand.png');
-  background-repeat: no-repeat;
-  margin-left: 10%;
-  margin-top: 10%;
-  }
- .hand:hover .arrow {
-display: block;
-position: absolute;
-top: -33.9%;
-left: 172%;
-border: 20px solid transparent; border-right: 20px solid blue;
-animation-name: arrowh;
-animation-duration: 3s;
-animation-fill-mode:forwards;  
-animation-direction: reverse;
-}
-@keyframes arrowh {
-0% {
-transform:  translate(-190px,183.5px);
-}
-20%{
-transform:  translate(-88px,183.5px);
-}
-40% {
-transform:  translate(-88px,183.5px) rotate(-90deg);
-}
-60% {
-transform:  translate(-88px, 0) rotate(-90deg);
-}
-80% {
-transform: translate(-88px,0px) rotate(0deg);
-}
-100% {
-transform: translate(0px,0px);
-}
-}    
-.comp {
-  background-image: url('./img/comp.png');
-  background-repeat: no-repeat;
-  background-size: 100%; 
-  margin-left: 33%;
-  margin-top: 51%;
-}
-.blood {
-  background-image: url('./img/blood.png');
-  background-repeat: no-repeat;
-  background-size: 100%; 
-  margin-left: 33%;
-  margin-top: 7%;
-}
-.blood:hover .arrow {
-display: block;
-position: absolute;
-top: 125%;
-left: -66%;
-border: 20px solid transparent; border-right: 20px solid violet;
-animation-name: arrowb;
-animation-duration: 3s;
-animation-fill-mode:forwards;  
-}
-@keyframes arrowb {
-0% {
-transform:  translate(190px,-183.5px);
-}
-20%{
-transform:  translate(88px,-183.5px);
-}
-40% {
-transform:  translate(88px,-183.5px) rotate(-90deg);
-}
-60% {
-transform:  translate(88px, 0px) rotate(-90deg);
-}
-80% {
-transform: translate(88px,0px) rotate(0deg);
-}
-100% {
-transform: translate(0px,0px);
-}
-}    
-.davl {
-  background-image: url('./img/davl.png');
-  background-repeat: no-repeat;
-  background-size: 100%; 
-  margin-left: 33%;
-  margin-top: 20%;
-}
-.davl:hover .arrow {
-display: block;
-position: absolute;
-top: 26.5%;
-left: -66%;
-border: 20px solid transparent; border-right: 20px solid orange;
-animation-name: arrowd;
-animation-duration: 2s;
-animation-fill-mode:forwards; 
-}
-@keyframes arrowd {
-from {
-transform:  translate(200px,0);
-}
-to {
-transform:  translate(0,0);
-}
-}    
-.robot {
-  background-image: url('./img/robot.png');
-  background-repeat: no-repeat;
-  background-size: 100%; 
-  margin-left: 33%;
-  margin-top: 5%;
-}
-.bio{
-	margin-top: 12px;
-}
-header{
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
 body{
-	margin-top: 1;
+padding: 0;
+margin: 0;
+font-family: ProximaNova-Regular;
 }
-.robot:hover .arrow {
-display: block;
-position: absolute;
-top: -47.5%;
-left: -66%;
-border: 20px solid transparent; border-left: 20px solid yellow;
-animation-name: arrowr;
-animation-duration: 3s;
-animation-fill-mode:forwards; 
-animation-direction: reverse; 
-}
-@keyframes arrowr {
-0% {
-transform:  translate(190px,183.5px);
-}
-20%{
-transform:  translate(93px,183.5px);
-}
-40% {
-transform:  translate(93px,183.5px) rotate(90deg);
-}
-60% {
-transform:  translate(93px, 0) rotate(90deg);
-}
-80% {
-transform: translate(93px,0px) rotate(0deg);
-}
-100% {
-transform: translate(0px,0px);
-}
-}   
-h2.profile-text {
-/*Профиль пациента \ Больной Человек */
-}
-.btn btn-outline-danger{
-	font-size: 32px;
-	width: 200px;
-	position: center;
-}
-.UP{
-	transition: 4s;
 
+*{
+transition: all 0.2s;
 }
-.pol{
-	position: absolute;
-	padding-left:82px;
-	padding-top:27px;
+
+.topMenu{
+position: fixed;
+height: auto;
+width: 100%;
+top: 0;
+left: 0;
+background: rgba(200, 32, 32, 1);
+font-size: x-large;
+padding-top: 1.5%;
+padding-bottom: 1.5%;
+text-align: right;
+color: white;
 }
-.lop{
-	position: absolute;
-	padding-left:35px;
-	padding-top: 27px;
+
+a{
+text-decoration: none;
+color: inherit;
 }
-.soc{
-	position: absolute;
-	margin-left: 430px;
-	margin-top: 27px;
-	height:100px;
+
+.topMenu a{
+padding: 1.5%;
+outline: none;
+max-height: 5vh;
 }
-.insta{
-	position: absolute;
-	margin-top: 60px;
-	margin-left: 375px;
+
+.topMenu a:last-child{
+margin-right: 3%;
 }
-.vk{
-	position: absolute;
-	margin-top: 60px;
-	margin-left: 440px;
+
+.topMenu a:hover{
+background: rgb(0,0,0,.1);
 }
-.fasebook{
-	position: absolute;
-	margin-top: 60px;
-	margin-left: 505px;
-}
-.telegram{
-	position: absolute;
-	margin-top: 58px;
-	margin-left: 570px;
-}
-.twitter{
-	position: absolute;
-	margin-top: 58.5px;
-	margin-left: 635px;
-}
-.gmail{
-	position: absolute;
-	margin-top: 27px;
-	margin-left: 1000px;
-}
-.gmal{
-	position: absolute;
-	margin-top: 80px;
-	margin-left: 1115px;
-}
-.почта{
-	position: absolute;
-	margin-top: 55px;
-	margin-left: 1003px;
-	color: grey;
-}
-.hit{
-	position: absolute;
-	margin-top:120px;
-	margin-left: 720px;
-}
-.loli{
-	margin-top:205px;
-	margin-left: 655px;
-	color: grey;
-}
-.mcs{
-	padding-right: 300px;
-	color: white;
-	font-size: 28px;
-	padding-top: 10px;
-}
-.font{
-	font-size: 18px;
-}
-.почта:hover{
-color: red;
-}
-.up{
+
+.topMenu img{
+float: left;
+max-height: 6vh;
+background: white;
+padding: 1vh;
+margin-top: -1%;
+margin-bottom: -1%;
+border-radius: 10%;
+margin-left: .5%;
 text-align: center;
+<<<<<<< HEAD
 }
 .strel{
 	font-size: 20px;
@@ -590,3 +133,6 @@ a:hover{
 		background-color: green;
 	}
 }
+=======
+}
+>>>>>>> 7c041f3e9c2310abb7d67b10e38b720c2afbfe1b
