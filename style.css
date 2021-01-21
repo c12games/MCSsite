@@ -2,12 +2,10 @@
 	font-family: ProximaNova-Regular;
 	src : url(./fonts/ProximaNova-Regular.ttf);
 }
-
 @font-face {
 	font-family: ProximaNova-Bold;
 	src: url(/fonts/ProximaNova-Bold.ttf);
 }
-
 h1, h2, a, text, footer {
 	font-family: ProximaNova-Regular;
 }
@@ -17,7 +15,7 @@ h1, h2, a, text, footer {
 .part1-1 {
 	background-image: url('./images/Мы.jpeg');
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	height: 750px;
 	background-position: top center -20% auto;	
 	padding: 5% 10%;
@@ -54,7 +52,6 @@ h1, h2, a, text, footer {
 	border: none;
 	cursor: pointer;
 	opacity: 0.8;
-	
   }
   .form-popup {
 	display: none;
@@ -93,7 +90,6 @@ h1, h2, a, text, footer {
   .form-container .cancel {
 	background-color: rgba(200, 32, 32, 0.8);
   }
-  
   .form-container .btn:hover, .open-button:hover {
 	opacity: 1;
   }
@@ -101,7 +97,6 @@ h1, h2, a, text, footer {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-
 	padding: 5% 10%;
 }
 .part1-2{
@@ -109,7 +104,6 @@ h1, h2, a, text, footer {
 	background-repeat: no-repeat;
 	background-size: 1565px 975px;
 	background-position: center;
-
 	 padding: 25% 10%;
 }
 .part1-3 {
@@ -123,7 +117,6 @@ h1, h2, a, text, footer {
 	background-color: rgba(233, 32, 32, 0.5);
 	color:#ffffff;
 	opacity: .9.9;
-	
 }
 .name{
 	font: outline;
@@ -142,16 +135,13 @@ h1, h2, a, text, footer {
 	padding: 5% 10%;
 	background-color: white;
 }
-
 .part4 {
 	background-image: url('./images/appbg.jpg\ \(2\).jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-
 	padding: 5% 10%;
 }
-
 .part5 {
 	background-color: #fff;
 	padding: 1% 10%;
@@ -162,37 +152,29 @@ h1, h2, a, text, footer {
 	border: 1px #ffffff;
 	padding: 3px;
 }
-
 .jumbotron {
 	margin: 0em;
 }
 html, body {
 	overflow-x: hidden;
 }
-
 .photocard {
 	width: 280px;
 	height: 280px;
 }
-
 .podval {
 	background-color: rgba(200, 32, 32, 0.8);
 	color: #ffffff;
 }
-
-
-
 @media only screen and (max-width:420px){
 	.display-4{
 		font-size: 2rem;
 	}
 }
- 
 .hospitals {
 	width: 1580px;
 	height: 1080px;
 }
-
 .picture-animation {
 	/*background-color: blue;*/
 	background-image: url('./img/bg.png');
@@ -205,7 +187,6 @@ html, body {
 	width: 33.3%;
 	display: block;
 }
-
 .med-pic {
 	/*display: flex;*/
 	height: 215px;
@@ -257,7 +238,6 @@ transform: translate(-100px,0px) rotate(0deg);
 transform: translate(0px,0px);
 }
 } 
-
 .grad {
   background-image: url('./img/grad.png');
   background-repeat: no-repeat;
@@ -282,7 +262,6 @@ transform:  translate(-200px,0);
 transform:  translate(0,0);
 }
 }    
-
 .hand {
   box-sizing: border-box;
   background-image: url('./img/hand.png');
@@ -452,23 +431,10 @@ h2.profile-text {
 }
 .UP{
 	transition: 4s;
-
-}
-.pol{
-
-	
-}
-.lop{
-	
-	
-}
-.soc{
-	
 }
 .insta{
 	margin: 0 15px;
 }
-	
 .vk{
 margin: 0 15px;
 }
@@ -481,34 +447,19 @@ margin: 0 15px;
 .twitter{
 	margin: 0 15px;		
 }
-.gmail{
-
-
-}
 .gmal{
 	text-align: center;
-	
 }
 .das{
 	text-align: center;
 	margin-top: -120px;
 }
-.почта{
-	
-	
-}
-.hit{
-
-}
 .loli{
-	
 	color: grey;
 }
 .mcs{
-
 	color: white;
 	font-size: 28px;
-
 }
 .font{
 	font-size: 18px;
@@ -524,21 +475,16 @@ text-align: center;
 }
 .vew{
 	color: black;
-		font-size: 21px;
+	font-size: 21px;
 	text-decoration: none;
 	font-family: Roboto;
 }
 .eva{
-
-
 	font-size:22px;
 }
 a:hover{
 	text-decoration:none;
 	color: red;
-}
-.ded{
-	
 }
 .information{
 	font-size:22px;
@@ -571,7 +517,7 @@ a:hover{
 }
 .ikonki{
 	display: flex;
-justify-content: center;
+    justify-content: center;
 	align-items: center;
 }
 .q{
