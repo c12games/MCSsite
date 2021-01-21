@@ -584,7 +584,7 @@ a:hover{
 	background-color: rgb(247, 247, 247);
 	height: 335px;
 }
-@media only screen and (max-width: 500){
+@media (max-width: 500){
 	.mcs{
 		width: 80%;
 		background-color: green;
